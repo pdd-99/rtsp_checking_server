@@ -1,0 +1,6 @@
+flask
+gunicorn
+GPUtil
+zmq
+loguru
+omegaconf

@@ -1,0 +1,16 @@
+# liveness probe config
+liveness_mode: 0
+liveness_server_port: 8080
+zmq_port: 5555
+zmq_recv_timeout: 0.1
+gpu_util_threshold: 1
+gpu_vram_threshold: 90
+ai_process_threshold: 0.05
+gpu_util_max_duration: 5
+gpu_vram_max_duration: 5
+ai_process_max_duration: 5
+zmq_no_msg_max_duration: 5
+probe_max_duration: 300
+
+# RTSP checking server config
+rtsp_checking_server_port: 8001
